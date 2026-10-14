@@ -1,0 +1,171 @@
+:root {
+  color: #1d2939;
+  background: #f5f7fb;
+  font-family: Inter, "PingFang SC", "Microsoft YaHei", sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+button,
+select,
+input {
+  font: inherit;
+}
+
+main {
+  width: min(760px, calc(100% - 32px));
+  margin: 42px auto 80px;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  margin-bottom: 28px;
+}
+
+.logo {
+  display: grid;
+  width: 48px;
+  height: 48px;
+  place-items: center;
+  border-radius: 14px;
+  color: white;
+  background: linear-gradient(145deg, #425ee7, #7248d9);
+  font-size: 23px;
+  font-weight: 700;
+}
+
+h1 {
+  margin: 0 0 4px;
+  font-size: 22px;
+}
+
+header p {
+  margin: 0;
+  color: #667085;
+  font-size: 13px;
+}
+
+.saved {
+  margin-left: auto;
+  color: #16803b;
+  font-size: 13px;
+}
+
+section {
+  margin-top: 18px;
+  overflow: hidden;
+  border: 1px solid #e4e8ef;
+  border-radius: 14px;
+  background: white;
+}
+
+h2 {
+  margin: 0;
+  padding: 15px 18px 11px;
+  color: #667085;
+  font-size: 12px;
+  letter-spacing: 0.04em;
+}
+
+.row {
+  display: flex;
+  min-height: 64px;
+  align-items: center;
+  justify-content: space-between;
+  gap: 30px;
+  padding: 11px 18px;
+  border-top: 1px solid #edf0f4;
+  font-size: 14px;
+}
+
+.row small {
+  display: block;
+  margin-top: 4px;
+  color: #8993a2;
+  font-size: 11px;
+  font-weight: 400;
+}
+
+select {
+  min-width: 190px;
+  padding: 8px 10px;
+  border: 1px solid #d9dfe8;
+  border-radius: 8px;
+  background: white;
+}
+
+input[type="range"] {
+  width: 210px;
+  accent-color: #5267df;
+}
+
+input[type="color"] {
+  width: 48px;
+  height: 32px;
+  padding: 2px;
+  border: 1px solid #d9dfe8;
+  border-radius: 7px;
+  background: white;
+}
+
+.preview {
+  margin: 10px 18px 18px;
+  padding: 16px;
+  border-radius: 10px;
+  background: #f7f8fb;
+}
+
+.preview p {
+  margin: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 13px 18px;
+  border-top: 1px solid #edf0f4;
+  font-size: 13px;
+}
+
+li button {
+  border: 0;
+  color: #b42318;
+  background: none;
+  cursor: pointer;
+}
+
+.empty {
+  margin: 0;
+  padding: 10px 18px 18px;
+  color: #7a8493;
+  font-size: 13px;
+}
+
+aside {
+  margin-top: 18px;
+  padding: 15px 18px;
+  border-radius: 12px;
+  color: #465568;
+  background: #eaf1ff;
+  font-size: 13px;
+}
+
+aside p {
+  margin: 5px 0 0;
+  line-height: 1.6;
+}

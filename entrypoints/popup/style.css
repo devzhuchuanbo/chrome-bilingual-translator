@@ -1,0 +1,176 @@
+:root {
+  color: #182230;
+  background: #f6f8fb;
+  font-family: Inter, "PingFang SC", "Microsoft YaHei", sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  width: 360px;
+}
+
+button,
+select,
+input {
+  font: inherit;
+}
+
+main {
+  padding: 20px;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 20px;
+}
+
+.brand-mark {
+  display: grid;
+  width: 42px;
+  height: 42px;
+  place-items: center;
+  border-radius: 12px;
+  color: white;
+  background: linear-gradient(145deg, #425ee7, #7248d9);
+  font-size: 21px;
+  font-weight: 700;
+  box-shadow: 0 8px 18px rgb(75 77 211 / 22%);
+}
+
+h1 {
+  margin: 0 0 3px;
+  font-size: 17px;
+}
+
+header p {
+  margin: 0;
+  color: #697586;
+  font-size: 12px;
+}
+
+.controls,
+.status-card,
+.switch-row {
+  border: 1px solid #e5e9f0;
+  border-radius: 12px;
+  background: white;
+}
+
+.controls label {
+  display: grid;
+  grid-template-columns: 74px 1fr;
+  align-items: center;
+  padding: 11px 12px;
+  font-size: 13px;
+}
+
+.controls label + label {
+  border-top: 1px solid #edf0f4;
+}
+
+select {
+  width: 100%;
+  border: 0;
+  outline: 0;
+  color: #283548;
+  background: transparent;
+  text-align: right;
+}
+
+.status-card {
+  margin-top: 12px;
+  padding: 12px;
+}
+
+.status-row {
+  display: flex;
+  justify-content: space-between;
+  font-size: 12px;
+}
+
+.progress {
+  height: 5px;
+  margin: 9px 0 6px;
+  overflow: hidden;
+  border-radius: 99px;
+  background: #edf0f6;
+}
+
+.progress i {
+  display: block;
+  height: 100%;
+  border-radius: inherit;
+  background: #5368e8;
+  transition: width 180ms ease;
+}
+
+.status-card small,
+.switch-row small {
+  display: block;
+  margin-top: 3px;
+  color: #7a8594;
+  font-size: 10px;
+  font-weight: 400;
+}
+
+.primary {
+  width: 100%;
+  margin-top: 14px;
+  padding: 11px;
+  border: 0;
+  border-radius: 10px;
+  color: white;
+  background: #4e63dd;
+  cursor: pointer;
+  font-weight: 650;
+}
+
+.primary.stop {
+  color: #344054;
+  background: #e9edf5;
+}
+
+.primary:disabled {
+  cursor: wait;
+  opacity: 0.65;
+}
+
+.error {
+  margin-top: 12px;
+  padding: 9px 10px;
+  border-radius: 8px;
+  color: #9a3412;
+  background: #fff0e9;
+  font-size: 12px;
+}
+
+.switch-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 12px;
+  padding: 11px 12px;
+  font-size: 12px;
+}
+
+.switch-row input {
+  width: 34px;
+  height: 18px;
+  accent-color: #4e63dd;
+}
+
+.link {
+  display: block;
+  margin: 12px auto 0;
+  border: 0;
+  color: #5368d9;
+  background: none;
+  cursor: pointer;
+  font-size: 12px;
+}
